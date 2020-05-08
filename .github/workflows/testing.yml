@@ -1,12 +1,9 @@
+
 name: testing
 
 on:
   push:
-    paths:
-    - 'src/**'
-    - 'tests/**'
-    - '**/*.nimble'
-    - '.github/workflows/testing.yml'
+    branches: [ master ]
 
 jobs:
   build:
